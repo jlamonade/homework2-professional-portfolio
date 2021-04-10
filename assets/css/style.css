@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0;
     margin: 0;
 }
@@ -58,26 +58,25 @@ main {
 }
 
 #star-project {
-    height: 320px;
+    height: auto;
 }
 
 .card {
     text-align: center;
-    height: auto;
     flex-direction: column;
     margin: 20px auto;
-    object-fit: contain;
-}
-
-.card img {
-    height: 150px;
 }
 
 .project-image {
-    height: 85%;
+    height: 400px;
 }
 
-.project-image img {
+.secondary-project-image {
+    height: 100px;
+}
+
+.project-image img,
+.secondary-project-image img {
     display: block;
     height: 100%;
     width: 100%;
@@ -93,7 +92,8 @@ main {
     height: 35px;
 }
 
-.card:hover .project-image img {
+.card:hover .project-image img,
+.card:hover .secondary-project-image img {
     opacity: 100%;
 }
 
@@ -139,7 +139,6 @@ main {
 
     .card {
         margin: 0;
-        max-width: 80%;
     }
 
     .content-holder {
