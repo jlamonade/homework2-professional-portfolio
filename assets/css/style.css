@@ -31,14 +31,16 @@ p {
     margin: 10px 30px;
 }
 
-a {
+nav a,
+#contact a {
     color: #f47c7c;
     font-size: larger;
     text-decoration: none;
     opacity: 100%;
 }
 
-a:hover {
+nav a:hover,
+#contact a:hover {
     opacity: 70%;
 }
 
