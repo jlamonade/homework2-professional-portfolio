@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding: 0;
     margin: 0;
 }
@@ -15,6 +15,7 @@ h3 {
 
 p {
     text-align: justify;
+    padding: 15px;
 }
 
 /* header selectors */
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 15px;
 }
 
 header nav {
@@ -113,18 +115,24 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    /* header selectors */
+    header {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
 
+    /* main selectors */
     main {
         margin: 0 10%;
     }
 
-    /* main selectors */
     .content {
         display: inline-flex;
     }
 
     .content h2{
-        flex: 0 0 20%;
+        flex: 0 0 14%;
         text-align: right;
         padding: 10px;
         margin: 0 15px;
@@ -138,7 +146,7 @@ main {
     }
 
     .card {
-        margin: 0;
+        margin: 0 15px;
     }
 
     .content-holder {
