@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding: 0;
     margin: 0;
 }
@@ -29,4 +29,15 @@ header nav ul {
 
 header nav ul li{
     margin: 5px;
+}
+
+/* main selectors */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 20px 5%;
 }
