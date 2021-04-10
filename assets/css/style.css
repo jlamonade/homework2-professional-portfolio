@@ -9,6 +9,10 @@ h1, h2 {
     margin: 0;
 }
 
+h3 {
+    font-size: medium; 
+}
+
 p {
     text-align: justify;
 }
@@ -54,21 +58,23 @@ main {
 }
 
 #star-project {
-    flex: 2 0 300px;
     height: 320px;
 }
 
 .card {
-    flex: 1 0 150px;
     text-align: center;
-    height: 150px;
+    height: auto;
     flex-direction: column;
     margin: 20px auto;
     object-fit: contain;
 }
 
+.card img {
+    height: 150px;
+}
+
 .project-image {
-    height: 90%;
+    height: 85%;
 }
 
 .project-image img {
@@ -84,6 +90,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35px;
 }
 
 .card:hover .project-image img {
@@ -117,7 +124,7 @@ main {
     }
 
     .content h2{
-        flex: 0 0 200px;
+        flex: 0 0 20%;
         text-align: right;
         padding: 10px;
         margin: 0 15px;
@@ -128,10 +135,16 @@ main {
     #projects {
         display: inline-flex;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
     .card {
         margin: 0;
+        max-width: 80%;
+    }
+
+    .content-holder {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
