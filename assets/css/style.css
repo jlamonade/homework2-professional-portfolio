@@ -48,8 +48,19 @@ main {
 
 /* project selectors */
 
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#star-project {
+    flex: 2 0 300px;
+    height: 300px;
+}
+
 .card {
     text-align: center;
+    height: 150px;
 }
 
 /* contact selectors */
