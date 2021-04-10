@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding: 0;
     margin: 0;
 }
@@ -63,6 +63,7 @@ main {
     text-align: center;
     height: 150px;
     flex-direction: column;
+    margin: 20px auto;
 }
 
 .project-image {
@@ -73,6 +74,7 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: 20% 10%;
 }
 
 .project-description {
