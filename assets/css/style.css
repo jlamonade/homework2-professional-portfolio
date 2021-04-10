@@ -59,6 +59,7 @@ main {
 }
 
 .card {
+    flex: 1 0 150px;
     text-align: center;
     height: 150px;
 }
@@ -76,4 +77,20 @@ main {
 #contact a img {
     height: 40px;
     margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* main selectors */
+    .content {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    /* project selectors */
+    #projects {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
