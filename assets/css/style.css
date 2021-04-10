@@ -106,6 +106,7 @@ main {
 }
 
 .profile-picture img{
+    width: 80%;
     min-width: 150px;
     max-width: 300px;
     border-radius: 50%;
