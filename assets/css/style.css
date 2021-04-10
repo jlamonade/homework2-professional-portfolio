@@ -86,7 +86,7 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: 20% 10%;
+    object-position: 50% 25%;
     opacity: 75%;
 }
 
@@ -120,9 +120,21 @@ main {
 @media screen and (min-width: 768px) {
     /* header selectors */
     header {
-        justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+    }
+
+    header h1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name {
+        justify-self: flex-start;
+    }
+
+    .description {
+        justify-self: flex-end;
     }
 
     /* main selectors */
