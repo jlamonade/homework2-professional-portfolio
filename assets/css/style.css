@@ -2,27 +2,41 @@
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2 {
     text-align: center;
-    margin: 0;
+    color: #222831;
 }
 
 h3 {
-    font-size: medium; 
+    color: #fff;
+    font-weight: lighter;
 }
 
 p {
     text-align: justify;
-    padding: 15px;
+    padding: 10px;
+    margin: 15px;
+    color: #30475e;
 }
 
 /* header selectors */
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     padding: 15px 5%;
 }
@@ -39,6 +53,16 @@ header nav ul {
 
 header nav ul li{
     margin: 5px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    font-size: 40%;
+    white-space: nowrap;
 }
 
 /* main selectors */
@@ -66,10 +90,9 @@ main {
 .card {
     text-align: center;
     flex-direction: column;
-    margin: 10px auto;
-    padding: 10px;
-    background: whitesmoke;
-    box-shadow: lightgray 2px 2px 10px, lightgray 2px 2px 10px;
+    margin: 10px;
+    padding: 5px 5px 0 5px;
+    background: #30475e;
 }
 
 .project-image {
@@ -121,22 +144,16 @@ main {
     /* header selectors */
     header {
         flex-direction: column;
-        align-items: center;
     }
 
-    header h1 {
-        display: flex;
-        justify-content: space-between;
+    header nav ul {
+        justify-content: flex-end;
     }
 
-    .name {
-        justify-self: flex-start;
+    .title {
+        width: 100%;
     }
-
-    .description {
-        justify-self: flex-end;
-    }
-
+    
     /* main selectors */
     main {
         margin: 0 10%;
@@ -144,6 +161,7 @@ main {
 
     .content {
         display: inline-flex;
+        align-content: flex-end;
     }
 
     .content h2{
@@ -151,18 +169,13 @@ main {
         text-align: right;
         padding: 10px;
         margin: 0 15px;
-        border-right: 3px solid black; 
+        border-right: 3px solid #f05454; 
     }
 
     /* project selectors */
     #projects {
         display: inline-flex;
         flex-direction: row;
-    }
-
-    .card {
-        margin: 15px;
-        padding: 10px;
     }
 
     .content-holder {
