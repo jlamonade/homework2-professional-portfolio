@@ -9,6 +9,10 @@ h1, h2 {
     margin: 0;
 }
 
+p {
+    text-align: justify;
+}
+
 /* header selectors */
 
 header {
@@ -41,3 +45,4 @@ main {
 .content {
     padding: 20px 5%;
 }
+
