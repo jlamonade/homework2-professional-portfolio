@@ -33,9 +33,8 @@ p {
 }
 
 a {
-    color: #f05454;
+    color: #f47c7c;
     font-size: larger;
-    font-weight: bold;
     text-decoration: none;
     opacity: 100%;
 }
@@ -48,18 +47,19 @@ a:hover {
 
 header {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     padding: 15px 5%;
 }
 
 header nav {
     margin: 2px;
+    background-color: #30475e;
 }
 
 header nav ul {
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 
 header nav ul li{
@@ -154,6 +154,10 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        margin: 0 10%;
+    }
+
     /* header selectors */
     header {
         flex-direction: column;
@@ -178,7 +182,7 @@ main {
     }
 
     .content h2{
-        flex: 0 0 14%;
+        flex: 0 0 100px;
         text-align: right;
         padding: 10px;
         margin: 0 15px;
