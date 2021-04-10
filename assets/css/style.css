@@ -55,7 +55,7 @@ main {
 
 #star-project {
     flex: 2 0 300px;
-    height: 300px;
+    height: 320px;
 }
 
 .card {
@@ -67,21 +67,26 @@ main {
 }
 
 .project-image {
-    height: 90%;
+    height: 100%;
 }
 
 .project-image img {
+    display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: 20% 10%;
+    opacity: 60%;
 }
 
 .project-description {
     display: flex;
-    height: 10%;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover .project-image img {
+    opacity: 100%;
 }
 
 /* contact selectors */
