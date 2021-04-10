@@ -64,6 +64,7 @@ main {
     height: 150px;
     flex-direction: column;
     margin: 20px auto;
+    object-fit: contain;
 }
 
 .project-image {
@@ -114,7 +115,8 @@ main {
     .content h2{
         flex: 0 0 200px;
         text-align: right;
-        padding: 5px;
+        padding: 10px;
+        margin: 0 15px;
         border-right: 3px solid black; 
     }
 
@@ -123,5 +125,9 @@ main {
         display: inline-flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 0;
     }
 }
