@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0;
     margin: 0;
 }
@@ -46,3 +46,17 @@ main {
     padding: 20px 5%;
 }
 
+/* contact selectors */
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact a img {
+    height: 45px;
+    margin: 10px;
+}
