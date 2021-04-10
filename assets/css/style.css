@@ -43,7 +43,7 @@ main {
 }
 
 .content {
-    padding: 20px 5%;
+    padding: 20px 0;
 }
 
 /* project selectors */
@@ -85,6 +85,13 @@ main {
     .content {
         display: inline-flex;
         flex-wrap: wrap;
+    }
+
+    .content h2{
+        flex: 0 0 200px;
+        text-align: right;
+        padding: 5px;
+        border-right: 3px solid black; 
     }
 
     /* project selectors */
