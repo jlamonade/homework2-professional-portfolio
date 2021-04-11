@@ -249,7 +249,6 @@ the image does not blend with the background color */
 
     /* project selectors */
     #projects {
-        /* display: inline-flex; */
         flex-direction: row;
     }
 
