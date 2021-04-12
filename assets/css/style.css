@@ -153,10 +153,14 @@ p {
     height: 100px;
 }
 
-/* selectors here make sure project preview images stay inside
+/* Selectors here make sure project preview images stay inside
 determined space and repositions and resizes images according to
 viewport size, opacity starts at 75% to give a mouseover highlighting
-effect. */
+effect.  
+
+the object fit gives the image an interesting window like effect 
+since the project screenshots are not well formatted or 
+great images */
 .lead-project-image img,
 .secondary-project-image img {
     height: 100%;
