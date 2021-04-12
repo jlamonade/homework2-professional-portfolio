@@ -163,14 +163,12 @@ effect. */
     width: 100%;
     object-fit: cover;
     object-position: 50% 25%;
-    opacity: 75%;
+    filter: contrast(70%)
 }
 
-/* consider changing the contrast to achieve highlight effect so that
-the image does not blend with the background color */
 .card:hover .lead-project-image img,
 .card:hover .secondary-project-image img {
-    opacity: 100%;
+    filter: contrast(100%);
 }
 
 .project-description {
@@ -240,11 +238,17 @@ the image does not blend with the background color */
 
     /* bio selectors */
     .profile-picture {
+        display: block;
         float: left;
+        height: 150px;
     }
 
     .profile-picture img {
         max-width: 150px;
+    }
+
+    #bio p {
+        float: left;
     }
 
     /* project selectors */
