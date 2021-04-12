@@ -106,17 +106,16 @@ without wrapping under content header */
 /* .profile-picture makes sure the image is sized and positioned
 correctly depending on the viewport size*/
 .profile-picture {
-    padding: 5px;
-    margin: 0 10px;
     display: flex;
+    margin: 10px;
     flex-direction: column;
     align-items: center;
 }
 
 .profile-picture img{
-    width: 80%;
+    width: 100%;
     min-width: 150px;
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 50%;
 }
 
@@ -208,7 +207,7 @@ great images */
     }
 
     p {
-        margin: 10px 10px;
+        margin: 0;
     }
 
     /* header selectors */
@@ -245,9 +244,13 @@ great images */
     /* bio selectors */
     .profile-picture {
         float: right;
-        width: 300px;
-        margin: 0;
+        width: 200px;
+        margin: 0 0 0 20px;
         padding: 0;
+    }
+
+    .profile-picture img {
+        width: 100%;
     }
 
     /* display block so that text will wrap around profile image */
@@ -274,5 +277,9 @@ great images */
     #bio .content-holder {
         display: flex;
         align-items: center;
+    }
+
+    .profile-picture {
+        margin-bottom: 20px;
     }
 }
