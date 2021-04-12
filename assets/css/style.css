@@ -244,17 +244,19 @@ great images */
 
     /* bio selectors */
     .profile-picture {
+        float: right;
+        width: 300px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* display block so that text will wrap around profile image */
+    #bio .content-holder {
         display: block;
-        float: left;
-        height: 150px;
     }
 
-    .profile-picture img {
-        max-width: 150px;
-    }
-
-    #bio p {
-        float: left;
+    #bio .content-holder p {
+        white-space: unset;
     }
 
     /* project selectors */
@@ -265,5 +267,12 @@ great images */
     .content-holder {
         display: inline-flex;
         margin: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    #bio .content-holder {
+        display: flex;
+        align-items: center;
     }
 }
