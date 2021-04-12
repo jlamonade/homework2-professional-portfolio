@@ -90,9 +90,9 @@ main {
     padding: 20px 0;
 }
 
-/* used to keep content on the right of content section
-and allows elements inside to be manipulated without wrapping 
-under content header */
+/* .content-holder used to keep content on the right side of 
+content section and allows elements inside to be manipulated 
+without wrapping under content header */
 .content-holder {   
     display: flex;
     margin: 5px 5%;
