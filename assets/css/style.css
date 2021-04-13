@@ -42,6 +42,13 @@ nav a:hover,
     opacity: 70%;
 }
 
+.link-set {
+    list-style: none;
+    display: flex;
+    padding: 5px 5%;
+    justify-content: space-evenly;
+}
+
 /* header selectors */
 
 header {
@@ -228,9 +235,9 @@ great images */
         margin: 0 10%;
     }
 
-    /* inline-flex makes sure the h2 element is always on the left */
     .content {
-        display: inline-flex;
+        display: flex;
+        flex-direction: row;
     }
 
     .content h2{
@@ -258,17 +265,13 @@ great images */
         display: block;
     }
 
-    #bio .content-holder p {
-        white-space: unset;
-    }
-
     /* project selectors */
     #projects {
         flex-direction: row;
     }
 
     .content-holder {
-        display: inline-flex;
+        display: row;
         margin: 5px 5%;
     }
 }
