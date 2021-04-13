@@ -122,7 +122,7 @@ correctly depending on the viewport size*/
 p {
     text-align: justify;
     color: #30475e;
-    margin: 10px 5%;
+    margin: 10px 0;
 }
 
 /* project selectors */
@@ -191,7 +191,7 @@ great images */
 
 #contact a {
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
 }
 
 #contact a img {
@@ -237,7 +237,7 @@ great images */
         flex: 0 0 100px;
         text-align: right;
         padding: 10px;
-        margin: 0 15px;
+        margin: 0;
         border-right: 3px solid #f05454; 
     }
 
@@ -269,7 +269,7 @@ great images */
 
     .content-holder {
         display: inline-flex;
-        margin: 5px 5px;
+        margin: 5px 5%;
     }
 }
 
