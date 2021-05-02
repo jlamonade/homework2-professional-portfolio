@@ -2,6 +2,14 @@
     /* border: 1px solid red; */
 }
 
-#bio {
+#about {
     text-align: justify;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#contact img {
+    max-width: 75px;
 }
