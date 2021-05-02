@@ -15,57 +15,88 @@
     <title>Jason Lam - Full Stack Web Developer</title>
   </head>
   <body>
-    <header>
-      <div class="title">
+    <!-- <header class="navbar">
+      <div class="navbar-brand">
         <h1>
           <span class="name">Jason Lam</span>
           <span class="description">Full Stack Web Developer</span>
         </h1>
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="https://github.com/jlamonade" target="_blank">GitHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="https://github.com/jlamonade" class="nav-link" target="_blank">GitHub</a>
           </li>
-          <li>
-            <a href="#bio">Bio</a>
+          <li class="nav-item">
+            <a href="#bio" class="nav-link">Bio</a>
           </li>
-          <li>
-            <a href="#projects">Projects</a>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="row d-flex flex-column">
+            <span class="name"><h1 class="display-2">Jason Lam</h1></span>
+            <span class="description"><h2 class="display-6">Full Stack Web Developer</h2></span>
+          </div>
+        </a>
+        </button>
+        <div class="navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex flex-row flex-nowrap justify-content-evenly">
+            <li class="nav-item">
+              <a class="nav-link" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
-      <section class="content" id="bio">
-        <h2>Bio</h2>
-        <div class="content-holder">
-          <figure class="profile-picture">
-            <img src="./assets/images/profile.jpg" alt="photo of jason lam" />
+      <section class="container" id="bio">
+        <div class="row justify-content-center align-items-center">
+          <h2>Bio</h2>
+          <figure class="profile-picture col-lg-3 col-md-4 col-sm-6">
+            <img
+              src="./assets/images/profile.jpg"
+              class="img-fluid"
+              alt="photo of jason lam"
+            />
           </figure>
-          <p>
+          <p class="col-lg-9 col-md-8 text-justify text-wrap">
             I am a (Front-end / Back-end) Web Developer with a hospitality
             background. Leveraging the skills acquired in hospitality, I can
-            effectively communicate with customers and deliver products that
-            meet their specifications by understanding their needs. I have a
-            penchant for building web-pages that are efficient, well-designed,
-            and visually appealing. I recently earned a certificate in
-            full-stack web development from the Columbia School of Engineering
-            and using my newfound skills in JavaScript, HTML, CSS, and jQuery, I
-            want to find a position that will allow me to utilize my strengths
-            to build products that are (fun and engaging for its users as well
-            as serving niche and interesting purposes / that are intuitive,
-            efficient, and engaging for its users).
+            effectively communicate with customers and deliver products that meet
+            their specifications by understanding their needs. I have a penchant
+            for building web-pages that are efficient, well-designed, and visually
+            appealing. I recently earned a certificate in full-stack web
+            development from the Columbia School of Engineering and using my
+            newfound skills in JavaScript, HTML, CSS, and jQuery, I want to find a
+            position that will allow me to utilize my strengths to build products
+            that are (fun and engaging for its users as well as serving niche and
+            interesting purposes / that are intuitive, efficient, and engaging for
+            its users).
           </p>
         </div>
       </section>
-      <section class="content" id="projects">
+      <section class="container" id="projects">
         <h2>Projects</h2>
-        <div class="content-holder">
-          <section class="card" id="lead-project">
+        <div class="row g-0 justify-content-center">
+          <section class="card col-12 border-0">
             <!-- lead project image has separate styling so that it is always displayed prominently -->
             <div class="lead-project-image">
               <a
@@ -74,6 +105,7 @@
               >
                 <img
                   src="./assets/images/project1_screenshot.jpeg"
+                  class="img-fluid"
                   alt="lazy mixology preview"
                 />
               </a>
@@ -82,7 +114,7 @@
               <h3>Lazy Mixology: Cocktail Recipes</h3>
             </div>
           </section>
-          <section class="card">
+          <section class="card col-6 border-0">
             <div class="secondary-project-image">
               <a
                 href="https://jlamonade.github.io/AccuCastDash/"
@@ -90,6 +122,7 @@
               >
                 <img
                   src="./assets/images/project2_screenshot.jpeg"
+                  class="img-fluid"
                   alt="AccuCastDash preview"
                 />
               </a>
@@ -98,11 +131,12 @@
               <h3>AccuCastDash: Weather Dashboard</h3>
             </div>
           </section>
-          <section class="card">
+          <section class="card col-6 border-0">
             <div class="secondary-project-image">
               <a href="https://jlamonade.github.io/Quiz-App/" target="_blank">
                 <img
                   src="./assets/images/project3_preview.jpeg"
+                  class="img-fluid"
                   alt="Quiz App preview"
                 />
               </a>
@@ -113,7 +147,7 @@
           </section>
         </div>
       </section>
-      <section class="content" id="contact">
+      <section class="container-row" id="contact">
         <h2>Contact</h2>
         <ul class="link-set">
           <li>
