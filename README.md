@@ -8,8 +8,8 @@ Deployed repo: https://jlamonade.github.io/homework2-professional-portfolio/
 
 Desktop:
 
-![desktop preview](./assets/images/preview_desktop.jpeg)
+![desktop preview](./assets/images/preview_desktop.png)
 
 Mobile:
 
-![mobile preview](./assets/images/preview_mobile.jpeg)
+![mobile preview](./assets/images/preview_mobile.png)
