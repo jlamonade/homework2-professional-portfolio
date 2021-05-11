@@ -4,7 +4,7 @@ Repo for homework 2
 
 I built this page using a mobile first design pattern. The page is style with Bootstrap using their grid layout design. The purpose of this project was to display my development skills and create a personal portfolio page for employers to look through.
 
-Deployed repo: https://jlamonade.github.io/homework2-professional-portfolio/
+Deployed repo: https://jlamonade.github.io/professional-portfolio/
 
 Desktop:
 
